@@ -1,3 +1,7 @@
 const cats = ["tony", "daisy", "socks", "rockie" ];
 
-const capitalisedCats = // your code here
+const capitalisedCats = cats.map(UpperCaser)
+
+function UpperCaser(str){
+    return str.toUpperCase()
+}
